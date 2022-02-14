@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: rayford.pouros@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-14 16:00:15'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Dr__Mitchel_Cronin:
+    name: Dr__Mitchel_Cronin
+    description: Really solid info
+    createdAt: '2022-02-14 16:00:15'
+    author: rayford.pouros@gmail.com
